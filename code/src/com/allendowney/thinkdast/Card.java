@@ -80,7 +80,7 @@ public class Card implements Comparable<Card> {
      * rank AND same suit; otherwise returns false.
      */
     public boolean equals(Card that) {
-        return this.rank == that.rank
+        return this.rank == that.r
             && this.suit == that.suit;
     }
 
